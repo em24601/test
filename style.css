@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: #0b0f19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.player-card{
+    background: rgba(255, 255, 255, 0.03);
+    padding: 30px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 320px;
+}
+
+.album-art {
+    display: block;
+    object-fit: cover;
+    width: 260px;
+    height: 260px;
+    background: linear-gradient(135deg, #9982BD, #268db6);
+    margin: 0 auto 20px auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.track-info h2 {
+    color: #ffffff;
+    margin: 10px 0 5px 0;
+    font-size: 1.4rem;
+}
+
+.track-info h3 {
+    color: #b3b3b3;
+    margin: 0 0 20px 0;
+    font-size: 1rem;
+    font-weight:400;
+}
+
+.progress-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    height: 6px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.progress-bar {
+    background: #1db954;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s linear;
+    border-radius: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.control-btn {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.login-btn { 
+    font-size: 1rem; 
+    margin-top: 20px;
+}
+
+.control-btn:hover {
+    transform: scale(1.1);
+    color: #1db954;
+}
+
+.play-pause {
+    font-size: 2.5rem;
+}
+

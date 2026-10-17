@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icon-192.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xira</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#9982BD">
+</head>
+<body>
+    <div class="player-card">
+        <button type="button" id="login-btn" class="control-btn login-btn">Connect Spotify</button>
+    <!-- Album Art Mockup-->
+    <img id="album-art" class="album-art" alt="Album Art">
+    <!-- Track Details-->
+     <div class="track-info">
+        <h2 id="song-title">Song Title</h2>
+        <h3 id="artist-name">Artist Name</h3>
+     </div>
+     <!-- Progress Bar Mochup-->
+      <div class="progress-container">
+        <div  id="progress-bar"class="progress-bar"></div>
+      </div>
+      <!-- Controller Buttons-->
+       <div class="controls">
+        <button type="button" id="prev-btn" class="control-btn">⏮</button>
+        <button type="button" id="play-btn" class="control-btn">▶</button>
+        <button type="button" id="next-btn" class="control-btn">⏭</button>
+       </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
